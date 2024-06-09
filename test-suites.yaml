@@ -2,7 +2,7 @@
 version: "3"
 services:
   vendor-portal:
-    image: deep
+    image: deepinder9399/selenium:latest
     environment:
     - BROWSER=chrome
     - HUB_HOST=hub
