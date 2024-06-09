@@ -11,7 +11,7 @@ services:
     volumes:
     - ./output/vendor-portal:/home/selenium-docker/test-output 
   flight-reservation:
-    image: deep
+    image: deepinder9399/selenium:latest
     environment:
     - BROWSER=firefox
     - HUB_HOST=hub
